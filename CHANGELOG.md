@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-29)
+## Unreleased (2025-03-30)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`3c365a3`](https://github.com/stdlib-js/stdlib/commit/3c365a32a445435156730a7c7dd0c1d3b879f810) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`25c5335`](https://github.com/stdlib-js/stdlib/commit/25c5335e1b70fca6b2797c03e9ee446c588bff1e) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`18e7567`](https://github.com/stdlib-js/stdlib/commit/18e7567199b60955541c5a760120664db7f04545) - **refactor:** update `stats/base/dnanmskrange` native addon from C++ to C [(#4162)](https://github.com/stdlib-js/stdlib/pull/4162) _(by Vivek Maurya, Athan Reines)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
