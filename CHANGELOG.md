@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`8f8663e`](https://github.com/stdlib-js/stdlib/commit/8f8663eb779a27d73ca11867b29263cbf43472d3) - add missing includes
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`8f8663e`](https://github.com/stdlib-js/stdlib/commit/8f8663eb779a27d73ca11867b29263cbf43472d3) - **fix:** add missing includes _(by Athan Reines)_
 -   [`b46a7f1`](https://github.com/stdlib-js/stdlib/commit/b46a7f1b201e5add52241701ba1d95025cf7d465) - **docs:** update copy _(by Athan Reines)_
 -   [`c816e83`](https://github.com/stdlib-js/stdlib/commit/c816e837143121c7f5eed1cb6631a4b3c49db58c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmskrange` [(#7171)](https://github.com/stdlib-js/stdlib/pull/7171) _(by Gururaj Gurram, Athan Reines)_
 -   [`3c365a3`](https://github.com/stdlib-js/stdlib/commit/3c365a32a445435156730a7c7dd0c1d3b879f810) - **refactor:** update paths _(by Aayush Khanna)_
