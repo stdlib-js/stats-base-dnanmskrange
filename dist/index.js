@@ -1,9 +1,9 @@
-"use strict";var q=function(i,u){return function(){return u||i((u={exports:{}}).exports,u),u.exports}};var p=q(function(F,x){
-var E=require('@stdlib/math-base-assert-is-nan/dist');function O(i,u,t,c,o){var s,m,a,n,r,e;if(i<=0)return NaN;for(t<0?a=(1-i)*t:a=0,o<0?n=(1-i)*o:n=0,e=0;e<i&&(r=u[a],!(r===r&&c[n]===0));e++)a+=t,n+=o;if(e===i)return NaN;for(m=r,s=m,e+=1,e;e<i;e++)a+=t,n+=o,!c[n]&&(r=u[a],!E(r)&&(r<m?m=r:r>s&&(s=r)));return s-m}x.exports=O
-});var y=q(function(G,g){
-var d=require('@stdlib/math-base-assert-is-nan/dist');function h(i,u,t,c,o,s,m){var a,n,r,e,v,f;if(i<=0)return NaN;for(r=c,e=m,f=0;f<i&&(v=u[r],!(v===v&&o[e]===0));f++)r+=t,e+=s;if(f===i)return NaN;for(n=v,a=n,f+=1,f;f<i;f++)r+=t,e+=s,!o[e]&&(v=u[r],!d(v)&&(v<n?n=v:v>a&&(a=v)));return a-n}g.exports=h
-});var R=q(function(H,b){
-var k=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),j=p(),w=y();k(j,"ndarray",w);b.exports=j
-});var z=require("path").join,A=require('@stdlib/utils-try-require/dist'),B=require('@stdlib/assert-is-error/dist'),C=R(),l,_=A(z(__dirname,"./native.js"));B(_)?l=C:l=_;module.exports=l;
+"use strict";var q=function(r,a){return function(){return a||r((a={exports:{}}).exports,a),a.exports}};var m=q(function(G,p){
+var b=require('@stdlib/math-base-assert-is-nan/dist');function E(r,a,i,o,u,d,_){var f,t,v,s,e,n;if(r<=0)return NaN;for(v=o,s=_,n=0;n<r&&(e=a[v],!(e===e&&u[s]===0));n++)v+=i,s+=d;if(n===r)return NaN;for(t=e,f=t,n+=1,n;n<r;n++)v+=i,s+=d,!u[s]&&(e=a[v],!b(e)&&(e<t?t=e:e>f&&(f=e)));return f-t}p.exports=E
+});var g=q(function(H,y){
+var x=require('@stdlib/strided-base-stride2offset/dist'),O=m();function h(r,a,i,o,u){return O(r,a,i,x(r,i),o,u,x(r,u))}y.exports=h
+});var k=q(function(I,l){
+var w=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),j=g(),z=m();w(j,"ndarray",z);l.exports=j
+});var A=require("path").join,B=require('@stdlib/utils-try-require/dist'),C=require('@stdlib/assert-is-error/dist'),D=k(),c,R=B(A(__dirname,"./native.js"));C(R)?c=D:c=R;module.exports=c;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
