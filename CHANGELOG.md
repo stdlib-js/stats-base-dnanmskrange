@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`b46a7f1`](https://github.com/stdlib-js/stdlib/commit/b46a7f1b201e5add52241701ba1d95025cf7d465) - **docs:** update copy _(by Athan Reines)_
 -   [`c816e83`](https://github.com/stdlib-js/stdlib/commit/c816e837143121c7f5eed1cb6631a4b3c49db58c) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanmskrange` [(#7171)](https://github.com/stdlib-js/stdlib/pull/7171) _(by Gururaj Gurram, Athan Reines)_
 -   [`3c365a3`](https://github.com/stdlib-js/stdlib/commit/3c365a32a445435156730a7c7dd0c1d3b879f810) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`25c5335`](https://github.com/stdlib-js/stdlib/commit/25c5335e1b70fca6b2797c03e9ee446c588bff1e) - **refactor:** update paths _(by Aayush Khanna)_
