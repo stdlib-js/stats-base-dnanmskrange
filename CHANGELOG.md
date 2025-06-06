@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`855d4a6`](https://github.com/stdlib-js/stdlib/commit/855d4a65217504b0e032ae90df8fbdaf7b98e1f1) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`fe52935`](https://github.com/stdlib-js/stdlib/commit/fe52935c933cce3e5550436a283495fb1dec0898) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`844a77f`](https://github.com/stdlib-js/stdlib/commit/844a77f27c0cd6fe5b58b2444ced6f6d4e3fc367) - **docs:** fix missing include _(by Athan Reines)_
 -   [`8f8663e`](https://github.com/stdlib-js/stdlib/commit/8f8663eb779a27d73ca11867b29263cbf43472d3) - **fix:** add missing includes _(by Athan Reines)_
